@@ -21,5 +21,21 @@ const kRoundedIconButtonCollor = Color(0xFF4c4f5e);
 
 const kBottomContainerTextStyle = TextStyle(
   fontSize: 22.0,
+  fontWeight: FontWeight.w600,
+);
+
+const kResultTitleStyle = TextStyle(
+  fontSize: 40.0,
+  fontWeight: FontWeight.bold,
+);
+
+const kResultTextStyle = TextStyle(
+  fontSize: 22.0,
+  fontWeight: FontWeight.bold,
+  color: Color(0xFF24d876),
+);
+
+const kBMITextStyle = TextStyle(
+  fontSize: 100.0,
   fontWeight: FontWeight.bold,
 );
